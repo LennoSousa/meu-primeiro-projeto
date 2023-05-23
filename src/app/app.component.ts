@@ -5,10 +5,13 @@ import { Title } from '@angular/platform-browser';
   selector: 'app-root',
   //templateUrl: `./app.component.html`,
   styleUrls: ['./app.component.scss'],
-  //  template: `<app-data-binding></app-data-binding>`
+  //  template: `
+  //  <app-data-binding></app-data-binding>
+  //  <app-diretivas-estruturais></app-diretivas-estruturais>
+  //  <app-diretivas-atributos><h1>Aulas de Diretivas Atributo </h1> <hr></app-diretivas-atributos>`
+  
   template: `
-  <app-diretivas-estruturais></app-diretivas-estruturais>
-  <app-diretivas-atributos><h1>Aulas de Diretivas Atributo </h1> <hr></app-diretivas-atributos>
+  <app-new-component></app-new-component>
   `
 
   //necessário comentar o templateURL para funcionar esse template apenas.
